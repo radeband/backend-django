@@ -1,1 +1,1 @@
-from .time_model import TimeModel
+from .base import BaseModel
