@@ -1,5 +1,3 @@
-import uuid
-
 from django.db import models
 
 from _helpers.models import BaseModel
