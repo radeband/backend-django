@@ -1,0 +1,11 @@
+# SETTINGS
+DEBUG=True
+SECRET_KEY=""
+ALLOWED_HOSTS=127.0.0.1,localhost
+
+# DATABASE
+DB_HOST=localhost
+DB_NAME=radeband
+DB_USER=postgres
+DB_PASS=postgres
+DB_PORT=5432
