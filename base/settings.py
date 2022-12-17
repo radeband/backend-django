@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     # 3rd parties
     'rest_framework',
     'django_cleanup.apps.CleanupConfig',
+    'drf_yasg',
 
     # apps
     'company'
