@@ -1,3 +1,5 @@
 *.md
 Dockerfile
+docker-compose.yml
 .git*
+var/
