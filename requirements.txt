@@ -4,4 +4,14 @@ python-decouple==3.6
 psycopg2-binary==2.9.5
 Pillow==9.3.0
 django-cleanup==6.0.0
+#swagger
 drf-yasg==1.21.4
+#s3-bucket
+django-storages==1.13.1
+boto3==1.26.32
+#sms
+pyotp==2.8.0
+# django-phonenumber-field==7.0.1
+djangorestframework-simplejwt==5.2.2
+phonenumbers==8.13.2
+kavenegar==1.1.2
