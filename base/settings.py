@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'storages',
 
     # apps
+    'account',
     'company'
 ]
 
@@ -83,6 +84,8 @@ DATABASES = {
     }
 }
 
+
+AUTH_USER_MODEL = 'account.User'
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
@@ -137,7 +140,7 @@ DEFAULT_FILE_STORAGE = '_helpers.storages.media_storage.MediaStorage'
 
 
 # SMS
-TIME_OTP_EXPIRE_INTERVAL = 5
+TIME_OTP_EXPIRE_INTERVAL = 120
 SMS_SECRET_KEY = config('SMS_SECRET_KEY')
 SMS_PROVIDER = config('SMS_PROVIDER')
 
